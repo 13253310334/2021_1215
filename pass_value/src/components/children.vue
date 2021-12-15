@@ -18,7 +18,7 @@ export default {
   methods: {
     passMyCount() {
       this.$emit('passMyCount', 'myCount is 24');
-      this.$bus.$emit('passBroCount','a age ')
+      this.$bus.$emit('passBroCount','a age ');
     }
   }
 }
